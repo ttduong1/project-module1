@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+}
+.table1 {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+#edit {
+    background-color: orange;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+#delete {
+    background-color: rgb(226, 43, 147);
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+#finished {
+    background-color: green;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+#save {
+    background-color: blue;
+    color: antiquewhite;
+}

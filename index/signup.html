@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up macmart story shop</title>
+    <link rel="stylesheet" type="text/css" href="/css/signup.css">
+    <script src="https://kit.fontawesome.com/7de9ee439a.js" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <link rel="icon" href="/icon/icon1.png" type="image/gif" sizes="16x16" />
+    
+</head>
+
+<body>
+    <div class="hero-image">
+        <div>
+            <div class="container">
+                <h2>Sign up</h2>
+                <p></p>
+                <hr>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                <div class="contair">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required> 
+                    <i id="icon" onclick="showPassword()" class="fa-solid fa-eye"></i>
+                </div>
+               
+                <div class="contair">
+                   <label for="psw-repeat"><b>Repeat Password</b></label>
+                   <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                   <i id="icon2" onclick="showPassword()" class="fa-solid fa-eye"></i>
+                </div>
+                <hr>  
+                <p>Bằng cách tạo một tài khoản, bạn phải đồng ý với điều kiện của chúng tôi <a href="#">Điều khoản & Sự riêng tư</a>.
+                </p>
+
+                <button type="submit" class="registerbtn" onclick="handleSubmit(this)" id="redirectRegister">Sign up</a></button>
+            </div>
+
+            <div class="container siginin">
+                <p>Bạn đã có tài khoản rồi ?<a href="http://127.0.0.1:5500/index/login.html">Log in</a></p>
+            </div>
+            <!-- <a href=""></a> -->
+        </form>
+</body>
+
+</html>
